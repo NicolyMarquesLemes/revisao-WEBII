@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(241, 183, 81);
+}
+
+header img{
+     width: 10%;
+}
+
+#frase{
+width: 20%;
+display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+    

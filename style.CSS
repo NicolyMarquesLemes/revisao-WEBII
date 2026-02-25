@@ -4,6 +4,10 @@
   box-sizing:border-box;
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
 body{
   font-family: Arial, sans-serif;
   line-height:1.6;
@@ -22,6 +26,7 @@ header{
   align-items:center;
   justify-content:space-between;
   position:relative;
+  animation: fadeUp 1.2s ease;
 }
 
 #logo{
@@ -210,8 +215,8 @@ button[type="submit"]:hover{
   position:absolute;
   bottom:20%;
   left:10%;
-  background:rgba(0,0,0,0.6);
-  color:white;
+  background:rgba(13, 255, 0, 0.652);
+  color:rgb(0, 0, 0);
   padding:10px 20px;
   border-radius:5px;
   font-size:20px;
@@ -273,10 +278,33 @@ footer{
 }
 
 /* RESPONSIVO */
-@media(max-width:768px){
-  .lado-a-lado{
-    flex-direction:column;
-    text-align:center;
+@media (max-width: 900px) {
+
+  .lado-a-lado {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #veve {
+    max-width: 80%;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .carousel {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+  @media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .lista-beneficios{
@@ -290,6 +318,10 @@ footer{
 
   .slide img{
     height:250px;
+  }
+
+  h4{
+    color: black;
   }
 
   .whatsapp-btn {
@@ -311,5 +343,25 @@ footer{
 }
 
 .whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+.btn-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2b9c02;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 1000;
+  transition: 0.3s;
+   display: none;
+}
+
+.btn-topo:hover {
+  background: #000;
   transform: scale(1.1);
 }

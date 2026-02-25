@@ -1,100 +1,131 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nic Veterinária</title>
-   <link rel="stylesheet" href="style.css">
-   <script src="js.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nic Veterinária</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js.js" defer></script>
+</head>
+
 <body>
-    <header>
-        <div class="menu-toggle" id="menuToggle">☰</div>
-<img src="Design sem nome.png" alt="" > 
-<img src="Transforme sua paixão por animais em uma carreira de sucesso.png" alt="" id="frase">
-    </header>
-    <main>
-    <h2>Sobre:</h2>
 
-     <div class="container lado-a-lado">
-     <p>
-       O curso Nic Veterinária foi desenvolvido para formar profissionais preparados para atuar no cuidado, na prevenção e no bem-estar animal.
-        Nosso objetivo é transformar a paixão pelos animais em uma carreira sólida e promissora.
-Durante o curso, o aluno aprende desde os fundamentos da anatomia e fisiologia animal até práticas essenciais de atendimento clínico,
- primeiros socorros veterinários e cuidados com diferentes espécies. A formação combina teoria e prática, permitindo que o estudante desenvolva segurança e confiança para atuar no mercado.
-O conteúdo é atualizado e pensado para atender às exigências do setor veterinário atual, preparando você para trabalhar em clínicas, pet shops, hospitais veterinários e até empreender no ramo pet.
-     </p><img src="veve.avif" alt=""id="veve">
+<header>
+ 
 
+  <nav id="nav">
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#form">Inscrição</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+<img src="Design sem nome.png" alt="Logo" id="logo">
+  <img src="Transforme sua paixão por animais em uma carreira de sucesso.png" alt="Frase" id="frase">
+ <div class="menu-toggle" id="menuToggle">☰</div>
+</header>
+
+<main>
+  <h2>Sobre:</h2>
+
+  <div class="container lado-a-lado">
+    <p>
+      O curso Nic Veterinária foi desenvolvido para formar profissionais preparados para atuar no cuidado, na prevenção e no bem-estar animal. Nosso objetivo é transformar a paixão pelos animais em uma carreira sólida e promissora.
+    Durante o curso, o aluno aprende desde os fundamentos da anatomia e fisiologia animal até práticas essenciais de atendimento clínico, primeiros socorros veterinários e cuidados com diferentes espécies. A formação combina teoria e prática,
+    permitindo que o estudante desenvolva segurança e confiança para atuar no mercado.
+    O conteúdo é atualizado e pensado para atender às exigências do setor veterinário atual, preparando você para trabalhar em clínicas, pet shops,
+    hospitais veterinários e até empreender no ramo pet.
+    </p>
+    <img src="veve.avif" alt="Imagem veterinária" id="veve">
+  </div>
+
+  <div class="box-central">
+    <button class="btn-cta" onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'})">
+      Quero me inscrever agora
+    </button>
+  </div>
+
+  <section class="beneficios">
+    <div class="container">
+      <h2>O que você vai aprender:</h2>
+      <ul class="lista-beneficios">
+        <li>Aulas práticas</li>
+        <li>Certificado reconhecido</li>
+        <li>Professores experientes</li>
+        <li>Material atualizado</li>
+      </ul>
     </div>
+  </section>
 
-<div class="box-central">
-
-     <button class="btn-cta" onclick="document.getElementById('form').scrollIntoView()">
-                    Quero me inscrever agora
-                </button>
-</div>
-      
-
-       <section class="beneficios">
-            <div class="container">
-                <h2>O que você vai aprender:</h2>
-                <ul class="lista-beneficios">
-                    <li>- Aulas práticas</li>
-                    <li>- Certificado reconhecido</li>
-                    <li>- Professores experientes</li>
-                    <li>- Material atualizado</li>
-                </ul>
-            </div>
-
-            </section>
-
-            <section class="form-section" id="form">
-            <div class="container">
-                <h2>Garanta sua vaga</h2>
-
-                 <form id="formulario">
-
-                    <div class="campo">
-                        <label>Nome</label>
-                        <input type="text" required placeholder="Digite seu nome">
-                        <small class="erro"></small>
-                    </div>
-        
+  <section class="form-section" id="form">
+    <div class="container">
+      <h2>Garanta sua vaga</h2>
+      <form id="formulario">
         <div class="campo">
-                        <label>Email</label>
-                        <input type="email" required placeholder="Digite seu email">
-                        <small class="erro"></small>
-                    </div>
+          <label>Nome</label>
+          <input type="text" required placeholder="Digite seu nome">
+          <small class="erro"></small>
+        </div>
 
-         <div class="campo">
-                        <label>Mensagem</label>
-                        <textarea required placeholder="Digite sua mensagem"></textarea>
-                        <small class="erro"></small>
-                    </div>
+        <div class="campo">
+          <label>Email</label>
+          <input type="email" required placeholder="Digite seu email">
+          <small class="erro"></small>
+        </div>
 
-                      <button type="submit">Enviar Inscrição</button>
-                    <p id="mensagem-sucesso"></p>
+        <div class="campo">
+          <label>Mensagem</label>
+          <textarea required placeholder="Digite sua mensagem"></textarea>
+          <small class="erro"></small>
+        </div>
 
-                </form>
-            </div>
-        </section>
+        <button type="submit">Enviar Inscrição</button>
+        <p id="mensagem-sucesso"></p>
+      </form>
+    </div>
+  </section>
+</main>
 
-    </main>
+<div class="carousel">
+  <div class="slides" id="slides">
+    <div class="slide">
+      <img src="Design sem nome.png" alt="" id="log">
+      <div class="caption">Bem-vindo ao nosso curso</div>
+    </div>
+    <div class="slide">
+      <img src="cuidando.jpg" alt="" id="cuidando">
+      <div class="caption">Aprenda na prática</div>
+    </div>
+    <div class="slide">
+      <img src="amo.jpg" alt="" id="amo">
+      <div class="caption">Cuide com amor</div>
+    </div>
+    <div class="slide">
+      <img src="imagem4.webp" alt="" id="imagem4">
+      <div class="caption">Transforme sua paixão em profissão</div>
+    </div>
+  </div>
 
-     
+  <div class="buttons">
+    <button onclick="prevSlide()">❮</button>
+    <button onclick="nextSlide()">❯</button>
+  </div>
+</div>
 
-     <footer>
-
-        <div class="footer-col">
-     <h4>Redes Sociais</h4>
-            <p>Instagram: @nicveterinaria</p>
-            <p>Facebook: Nic Veterinária</p>
-           <a href="https://wa.me/555194154505" target="_blank" class="whatsapp-btn">
-  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+<footer id="contato">
+    
+<a href="https://wa.me/5194154505" 
+   target="_blank" 
+   class="whatsapp-btn">
+   
+   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" 
+        alt="WhatsApp">
 </a>
-     </div>
-        
-        © 2026 Nic Veterinária - Todos os direitos reservados
-    </footer>
+  © 2026 Nic Veterinária - Todos os direitos reservados
+
+</footer>
+
 
 </body>
+</html>
 </html>

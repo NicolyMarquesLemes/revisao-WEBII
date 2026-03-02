@@ -26,7 +26,6 @@ header{
   align-items:center;
   justify-content:space-between;
   position:relative;
-  animation: fadeUp 1.2s ease;
 }
 
 #logo{
@@ -305,7 +304,22 @@ footer{
     flex-direction: column;
     align-items: center;
     text-align: center;
+.whatsapp-btn{
+      width: 55px;
+    height: 55px;
+    bottom: 15px;
+    right: 15px;
   }
+
+   .whatsapp-btn img {
+     width: 28px;
+    height: 28px;
+    left: 15px;     /* coloca no lado esquerdo */
+    right: auto;    /* remove o lado direito */
+    bottom: 15px; 
+  }
+
+}
 
   .lista-beneficios{
     flex-direction:column;
@@ -325,17 +339,21 @@ footer{
   }
 
   .whatsapp-btn {
-  position: fixed;
-  bottom: 20%;
-  right: 20%;
+   position: fixed;
+  bottom: 20px;
+  right: auto;
+  left: 20px;
+  width: 60px;
+  height: 60px;
   background: #25D366;
-  padding: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  box-shadow: 0 0 15% rgba(0,0,0,0.2);
-  z-index: 1000;
-  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  z-index: 9999;
 }
-}
+  }
 
 .whatsapp-btn img {
   width: 3%;

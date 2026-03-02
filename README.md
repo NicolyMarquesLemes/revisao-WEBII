@@ -1,95 +1,92 @@
-Nic Veterinária
+# 🐾 Nic Veterinária
 
- Sobre o Projeto:
+Projeto de página web estática desenvolvida para divulgação do curso **Nic Veterinária**.
 
-O projeto consiste em uma página web estática criada com:
+---
 
-HTML5
+## 📌 Sobre o Projeto
 
-CSS3
+O projeto consiste em uma página web estática criada utilizando:
 
-JavaScript (Vanilla JS)
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)  
 
 A página apresenta:
 
-Informações sobre o curso
+- Informações sobre o curso  
+- Lista de benefícios  
+- Formulário de inscrição com validação  
+- Carrossel de imagens  
+- Menu responsivo (hambúrguer)  
+- Botão flutuante do WhatsApp  
+- Botão "Voltar ao topo"  
 
-Lista de benefícios
+---
 
-Formulário de inscrição com validação
+## 🚀 Funcionalidades
 
-Carrossel de imagens
+### 📱 Menu Responsivo
+- Menu hambúrguer para telas menores  
+- Abre e fecha com clique  
+- Fecha automaticamente ao selecionar um link  
 
-Menu responsivo (hambúrguer)
+---
 
-Botão flutuante do WhatsApp
+### 📖 Seção "Sobre"
+- Texto explicativo sobre o curso  
+- Layout lado a lado (imagem + texto)  
+- Totalmente responsivo  
 
-Botão "voltar ao topo"
+---
 
- Funcionalidades:
- Menu Responsivo
+### 🎯 Botão CTA
+- Botão **“Quero me inscrever agora”**  
+- Rolagem suave até o formulário  
 
-Menu hambúrguer para telas menores
+---
 
-Abre e fecha com clique
+### ⭐ Lista de Benefícios
+- Exibição organizada dos diferenciais do curso  
 
-Fecha automaticamente ao selecionar um link
+---
 
- Seção Sobre
-
-Texto explicativo sobre o curso
-
-Layout lado a lado (imagem + texto)
-
-Totalmente responsivo
-
- Botão CTA
-
-Botão “Quero me inscrever agora”
-
-Rolagem suave até o formulário
-
- Lista de Benefícios
-
-Exibição organizada dos diferenciais do curso
-
- Formulário com Validação
+### 📝 Formulário com Validação
 
 Campos obrigatórios:
+- Nome  
+- Email  
+- Mensagem  
 
-Nome
+Funcionalidades:
+- Validação via JavaScript  
+- Exibição de mensagens de erro  
+- Mensagem de sucesso após envio  
 
-Email
+---
 
-Mensagem
+### 🖼 Carrossel de Imagens
+- Navegação manual (❮ ❯)  
+- Troca automática a cada 5 segundos  
+- Transição suave com `transform`  
 
-Validação via JavaScript
+---
 
-Exibição de mensagens de erro
+### 💬 Botão WhatsApp Flutuante
+- Fixo no canto da tela  
+- Redireciona para contato via WhatsApp  
 
-Mensagem de sucesso após envio
+---
 
- Carrossel de Imagens
+### ⬆ Botão "Voltar ao Topo"
+- Aparece ao rolar a página  
+- Scroll suave até o topo  
 
-Navegação manual (❮ ❯)
+---
 
-Troca automática a cada 5 segundos
+## 📂 Estrutura de Arquivos
 
-Transição suave com transform
-
- Botão WhatsApp Flutuante
-
-Fixo no canto da tela
-
-Redireciona para contato via WhatsApp
-
- Botão Voltar ao Topo
-
-Aparece ao rolar a página
-
-Scroll suave até o topo
-
-📂 Estrutura de Arquivos
+```
 📁 projeto-nic-veterinaria
 │
 ├── index.html
@@ -101,64 +98,63 @@ Scroll suave até o topo
 ├── cuidando.jpg
 ├── amo.jpg
 └── imagem4.webp
-💻 Como Executar o Projeto
+```
 
-Baixe ou clone este repositório:
+---
 
+## 💻 Como Executar o Projeto
+
+1. Baixe ou clone este repositório:
+
+```bash
 git clone https://github.com/seu-usuario/nic-veterinaria.git
+```
 
-Abra o arquivo index.html em qualquer navegador moderno.
+2. Abra o arquivo `index.html` em qualquer navegador moderno.
 
-Não é necessário servidor ou instalação de dependências.
+> ⚠ Não é necessário servidor ou instalação de dependências.
 
- Responsividade:
+---
 
-O projeto utiliza Media Queries para adaptação em:
+## 📱 Responsividade
 
-Tablets (até 900px)
+O projeto utiliza **Media Queries** para adaptação em:
 
-Smartphones (até 600px)
+- Tablets (até 900px)  
+- Smartphones (até 600px)  
 
-Layout ajusta:
+O layout ajusta automaticamente:
+- Menu  
+- Seção lado a lado  
+- Carrossel  
+- Lista de benefícios  
 
-Menu
+---
 
-Seção lado a lado
+## 🛠 Tecnologias Utilizadas
 
-Carrossel
+- HTML5 semântico  
+- CSS Flexbox  
+- Media Queries  
+- JavaScript DOM  
+- Manipulação de eventos  
+- Scroll suave  
+- `setInterval` para carrossel  
 
-Lista de benefícios
+---
 
- Tecnologias Utilizadas:
+## 🔮 Melhorias Futuras
 
-HTML5 semântico
+- Integração real com backend para envio do formulário  
+- Animações mais elaboradas  
+- Melhor organização do CSS  
+- Otimização de imagens  
+- Implementação de acessibilidade (ARIA)  
 
-CSS Flexbox
+---
 
-Media Queries
-
-JavaScript DOM
-
-Manipulação de eventos
-
-Scroll suave
-
-setInterval para carrossel
-
- Melhorias Futuras
-
-Integração real com backend para envio do formulário
-
-Animações mais elaboradas
-
-Melhor organização do CSS
-
-Otimização de imagens
-
-Implementação de acessibilidade (ARIA)
-
- Contato:
+## 📞 Contato
 
 Projeto desenvolvido para fins educacionais.
 
-© 2026 Nic Veterinária - Todos os direitos reservados
+© 2026 Nic Veterinária - Todos os direitos reservados.
